@@ -25,5 +25,5 @@ while : ; do
     )
     echo $(date +%H:%M:%S) $OPEN_OR_CLOSE
     sleep 1
-    [[ ${OPEN_OR_CLOSE} =~ "close" ]] && break
+    [[ ${OPEN_OR_CLOSE} =~ "open" ]] && break
 done
